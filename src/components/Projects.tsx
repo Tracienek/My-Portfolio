@@ -9,7 +9,7 @@ function Projects() {
     { 
       title: "Portfolio Website", 
       description: "Personal portfolio built with React and Tailwind CSS.",
-      link: "#"
+      link: "https://github.com/Tracienek/My-Portfolio"
     },
     { 
       title: "Pet Adoption", 
@@ -20,6 +20,11 @@ function Projects() {
       title: "To Do List", 
       description: "A simple To-Do List app built with React.",
       link: "#"
+    },
+    { 
+      title: "Local Guru Website", 
+      description: "An assignment with 4 members built the travel web.",
+      link: "https://github.com/RMIT-Vietnam-Teaching/group-project-cosc3060-cosc3061-2024b-hello-world"
     },
   ];
 
