@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ava from "../img/ava.jpg";
 
 interface HeaderProps {
   darkMode: boolean;
@@ -10,7 +11,7 @@ function Header({ darkMode, setDarkMode }: HeaderProps) {
 
   return (
     <>
-      <header className="flex justify-between items-center p-6">
+      <header className="fixed top-0 left-0 w-full z-50 bg-white dark:bg-gray-900 shadow-md flex justify-between items-center p-6 transition duration-300">
         <div className="text-xl font-bold">
           <a href="#"
           onClick={(e) => {

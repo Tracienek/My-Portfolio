@@ -29,7 +29,7 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 px-6">
+    <section id="projects" className="py-20 px-6 bg-gray-100 dark:bg-gray-700">
       <h2 className="text-3xl font-bold mb-6 text-center">Projects</h2>
       <div className="grid gap-8 md:grid-cols-3">
         {projectList.map((project, idx) => (

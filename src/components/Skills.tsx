@@ -2,11 +2,12 @@ function Skills() {
   const strongSkills: string[] = [
     "HTML5",
     "CSS3",
+    "Bootstrap CSS",
     "JavaScript",
+    "TypeScript",
     "React.js",
     "Tailwind CSS",
-    "Bootrap CSS",
-    "TypeScript"
+    "Figma / UI Design",
   ];
 
   const familiarSkills: string[] = [
@@ -17,9 +18,10 @@ function Skills() {
     "Software Engineering",
     "Responsive Web Design (Mobile Friendly Layout)",
     "Cloud Computing (AWS EC2, S3 storage; IaaS, PaaS, SaaS)",
+    "Next.js",
   ];
 
-  const weakSkills: string[] = [
+  const learningSkills: string[] = [
     "Cybersecurity Awareness",
     "DOM Manipulation",
   ];
@@ -30,7 +32,7 @@ function Skills() {
     "Problem-solving",
     "Time management",
     "Adaptability",
-  ]
+  ];
 
   // Component render từng nhóm skill
   const renderSkillGroup = (title: string, skills: string[]) => (
@@ -40,7 +42,7 @@ function Skills() {
         {skills.map((skill) => (
           <li
             key={skill}
-            className="bg-white dark:bg-gray-700 dark:text-white p-3 rounded shadow text-center min-w-[160px]"
+            className="bg-white dark:bg-gray-700 dark:text-white p-3 rounded shadow text-center min-w-[140px]"
           >
             {skill}
           </li>
@@ -50,13 +52,13 @@ function Skills() {
   );
 
   return (
-    <section id="skills" className="py-20 px-6 bg-gray-100 dark:bg-gray-800">
+    <section id="skills" className="py-20 px-6">
       <h2 className="text-3xl font-bold mb-10 text-center">Skills</h2>
 
       <div className="max-w-4xl mx-auto">
         {renderSkillGroup("💪 Strong Skills", strongSkills)}
         {renderSkillGroup("📘 Familiar Skills", familiarSkills)}
-        {renderSkillGroup("😅 Basic/Weak Skills", weakSkills)}
+        {renderSkillGroup("🧠 Currently Exploring", learningSkills)}
         {renderSkillGroup("✨ Soft Skills", softSkills)}
       </div>
     </section>
