@@ -1,10 +1,16 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+import ava1 from "../img/ava1.jpg";
+import ava2 from "../img/ava2.jpg";
+import ava3 from "../img/ava3.jpg";
+import ava4 from "../img/ava4.jpg";
+import ava5 from "../img/ava5.jpg";
+
 function Hero() {
   const [selectedImg, setSelectedImg] = useState<string | null>(null);
 
-  const images = ["ava1.jpg", "ava2.jpg", "ava3.jpg", "ava4.jpg", "ava5.jpg"];
+  const images = [ava1, ava2, ava3, ava4, ava5];
 
   return (
     <>
@@ -13,14 +19,14 @@ function Hero() {
           {images.map((img, index) => (
             <motion.img
               key={index}
-              src={`/src/img/${img}`}
+              src={img}
               alt={`Avatar ${index + 1}`}
               className="w-32 h-38 rounded-lg object-cover border-2 border-purple-300 shadow-md cursor-pointer hover:shadow-xl"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ scale: 1.15 }}
-              onClick={() => setSelectedImg(`/src/img/${img}`)}
+              onClick={() => setSelectedImg(img)}
             />
           ))}
         </section>

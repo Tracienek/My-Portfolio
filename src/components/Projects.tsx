@@ -9,7 +9,7 @@ function Projects() {
     { 
       title: "Portfolio Website", 
       description: "Personal portfolio built with React and Tailwind CSS.",
-      link: "https://github.com/Tracienek/My-Portfolio"
+      link: "https://my-portfolio-9odn.onrender.com/"
     },
     { 
       title: "Pet Adoption (in process)", 
