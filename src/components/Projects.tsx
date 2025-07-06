@@ -12,14 +12,14 @@ function Projects() {
       link: "https://github.com/Tracienek/My-Portfolio"
     },
     { 
-      title: "Pet Adoption", 
+      title: "Pet Adoption (in process)", 
       description: "A demo web frontend built with React and Tailwind CSS for pet adoption.",
       link: "https://github.com/Tracienek/Pet-Adopted.git"
     },
     { 
       title: "To Do List", 
       description: "A simple To-Do List app built with React.",
-      link: "#"
+      link: "https://github.com/Tracienek/To-Do-List.git"
     },
     { 
       title: "Local Guru Website", 
@@ -40,7 +40,7 @@ function Projects() {
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-500 hover:underline font-semibold"
+              className="text-purple-500 hover:underline font-semibold"
             >
               View Project →
             </a>

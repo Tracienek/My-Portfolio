@@ -31,7 +31,7 @@ const ContactForm = () => {
             type="text"
             name="user_name"
             required
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 dark:bg-gray-700 dark:text-gray-100"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 dark:bg-gray-700 dark:text-gray-100"
             placeholder="Your Name"
           />
         </div>
@@ -41,7 +41,7 @@ const ContactForm = () => {
             type="email"
             name="user_email"
             required
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 dark:bg-gray-700 dark:text-gray-100"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 dark:bg-gray-700 dark:text-gray-100"
             placeholder="Your Email"
           />
         </div>
@@ -50,14 +50,14 @@ const ContactForm = () => {
           <textarea
             name="message"
             required
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 dark:bg-gray-700 dark:text-gray-100"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 dark:bg-gray-700 dark:text-gray-100"
             rows={5}
             placeholder="Your Message"
           />
         </div>
         <button
           type="submit"
-          className="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-2 rounded-lg transition duration-300"
+          className="w-full bg-purple-500 hover:bg-purple-700 text-white py-2 rounded-lg transition duration-300"
         >
           Send Message
         </button>
