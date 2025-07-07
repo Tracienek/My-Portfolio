@@ -71,7 +71,7 @@ function Hero() {
           View My Work
         </motion.a>
         <a
-          href="/resume.pdf"
+          href="/PHAM TRAN BAO TRAN - FONT-END DEVELOPMENT - ENGLISH VERSION.pdf"
           download
           target="_blank"
           rel="noopener noreferrer"
