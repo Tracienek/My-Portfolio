@@ -109,7 +109,7 @@ const ContactForm = () => {
             href="mailto:tranbaotran.dev@gmail.com"
             className="text-purple-500 underline"
           >
-            tranbaotran.dev@gmail.com
+            baotran09042004@gmail.com
           </a>
         </p>
       </form>
