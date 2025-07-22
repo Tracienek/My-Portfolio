@@ -18,8 +18,8 @@ function Projects() {
     },
     { 
       title: "To Do List", 
-      description: "A simple To-Do List app built with React.",
-      link: "https://github.com/Tracienek/To-Do-List.git"
+      description: "A simple To-Do List web built",
+      link: "https://my-todo-web.onrender.com"
     },
     { 
       title: "Local Guru Website", 
