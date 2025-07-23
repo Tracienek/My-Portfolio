@@ -12,11 +12,6 @@ function Projects() {
       link: "https://my-portfolio-9odn.onrender.com/"
     },
     { 
-      title: "Pet Adoption (in process)", 
-      description: "A demo web frontend built with React and Tailwind CSS for pet adoption.",
-      link: "https://github.com/Tracienek/Pet-Adopted.git"
-    },
-    { 
       title: "To Do List", 
       description: "A simple To-Do List web built",
       link: "https://my-todo-web.onrender.com"

@@ -31,7 +31,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-700 px-4">
+    <section id="contact" className="flex justify-center items-center min-h-screen bg-100 dark:bg-700 px-4">
       <form
         onSubmit={sendEmail}
         className="w-full max-w-lg bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md"
