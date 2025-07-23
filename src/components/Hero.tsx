@@ -71,7 +71,7 @@ function Hero() {
           View My Work
         </motion.a>
         <a
-          href="/PHAM TRAN BAO TRAN - CV - ENGLISH VERSION.pdf"
+          href="/Phạm trần bảo trân - cv.pdf"
           download
           target="_blank"
           rel="noopener noreferrer"
